@@ -1,0 +1,154 @@
+#me{
+    color: red;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    
+}
+body{
+    background-color: black;
+}
+img{
+    width: 500px;
+    height: 500px;
+    border-radius: 40%;
+    transition: all 0.5s ease-in-out;
+}
+
+img:hover{
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 0 20px red;
+}
+
+
+    
+
+
+
+
+    #name{
+        color: white;
+        font-size: 24px;
+        font-family: Arial, sans-serif;
+        text-shadow: 10px 10px 5px red;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        margin-left: 500px;
+    }
+    span:hover{
+        
+        color: red;
+        /* transition-property: all;
+        transition-duration: 1s; */
+        font-size: 75px;
+        transition: all 1s ease-in-out;
+        transition-delay: 0.2s;
+    
+    
+        
+    }
+#box{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+
+
+}
+    #box1,#box2,#box3,#box4,#box5{
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 18px;
+        font-family: Arial, sans-serif;
+       
+    }
+    p{
+        color: white;
+        font-size: 18px;
+        font-family: Arial, sans-serif;
+        text-shadow: 2px 2px 4px red;
+        height:2px
+
+
+    }
+    #box1:hover,#box2:hover,#box3:hover,#box4:hover,#box5:hover{
+        transition: ease-in-out 0.3s;
+        background-color: red;
+        color: black;
+        scale:(1.2)
+       
+    }
+    #box1:hover{
+        transform: translateY(10px);
+    }
+    #box2:hover{
+        transform: translateY(10px);
+    }
+    #box3:hover{
+        transform: translateY(10px);
+    }
+    #box4:hover{
+        transform: translateY(10px);
+    }
+    #box5:hover{
+        transform: translateY(10px);
+    }
+  
+  
+  footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  body{
+
+background-size: cover;
+background-attachment: fixed;
+
+
+
+  }
+a{
+    color: white;
+    text-decoration: none;
+  }
+  #about{
+   width: 500px;
+   height: 500px;
+   margin-left: 600px;
+   margin-bottom: 400px;
+   position: absolute;
+   top: 200px;
+  }
+  #socialmedia{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    top: 190px;
+    
+    scale: 0.1;
+    
+  }
+
+    #github:hover,#linkedin:hover,#instagram:hover{
+        transform: translateY(50px);
+        transition: all 0.3s ease-in-out;
+
+    
+
+    }
+body{}
+        
+
+
+    
+
+    
+    
